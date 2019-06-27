@@ -13,5 +13,5 @@ class Post
     else 
     end 
   end 
-  
+  def all_posts
 end 
