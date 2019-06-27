@@ -14,6 +14,6 @@ class Post
     end 
   end 
   def self.post_count
-    @@all
+    @@all.count
   end 
 end 
