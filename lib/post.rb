@@ -13,5 +13,7 @@ class Post
     else 
     end 
   end 
-  def all_posts
+  def self.post_count
+    @@all
+  end 
 end 
